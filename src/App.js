@@ -8,7 +8,7 @@ import { ForecastChart } from './components/ForecastChart';
 import { ForestAnalyzer } from './components/ForestAnalyzer';
 import { useWeather } from './hooks/useWeather';
 import { weatherAiApi } from './services/weatherAiApi';
-import { Activity, TrendingUp, CloudSun, Sparkles } from 'lucide-react';
+import { Activity, TrendingUp, CloudSun } from 'lucide-react';
 
 function App() {
   const [activeTab, setActiveTab] = useState('weather');

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Key, Save, Shield, CheckCircle } from 'lucide-react';
+import {  Save, Shield, CheckCircle } from 'lucide-react';
 import { weatherAiApi } from '../services/weatherAiApi';
 
 export const ApiKeyInput = ({ onKeySet }) => {
